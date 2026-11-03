@@ -38,6 +38,9 @@ skills/
 ├── development/     💻 개발·자동화
 ├── infra-security/  🛡️ 인프라·보안
 ├── design/          🎨 디자인·창작
+├── research/        🔬 리서치
+├── media/           🎬 미디어
+├── pm/              📋 PM·기획
 └── references/      📋 개발 스킬들이 함께 쓰는 체크리스트
 my-skills/           ✍️ 내가 직접 만든 스킬
 licenses/            📜 원저작자 라이선스
@@ -119,6 +122,26 @@ licenses/            📜 원저작자 라이선스
 | [modern-python](skills/development/modern-python) | 최신 Python 도구 (uv, ruff) 로 프로젝트·스크립트 구성 | Trail of Bits ⭐8k |
 | [gh-cli](skills/development/gh-cli) | GitHub 작업을 `gh` CLI로 처리 | Trail of Bits |
 | [devcontainer-setup](skills/development/devcontainer-setup) | Claude Code용 격리 개발 컨테이너 구성 | Trail of Bits |
+| [dev-browser](skills/development/dev-browser) | Claude가 실제 브라우저를 열어 웹 작업 수행 | SawyerHood ⭐6k |
+| [web-scraper](skills/development/web-scraper) | 웹 스크래핑 전략·예제 (정적/동적 페이지, Apify 연동) | yfe404 |
+| [repomix-explorer](skills/development/repomix-explorer) | 저장소 전체를 AI가 읽기 좋은 파일 하나로 묶어 분석 (repomix 필요) | yamadashy |
+| [vexor-cli](skills/development/vexor-cli) | 파일·코드 의미 기반 검색 (vexor CLI 필요) | scarletkc |
+| [skill-seekers](skills/development/skill-seekers) | 문서 사이트·GitHub 저장소를 Claude 스킬로 자동 변환 (Skill Seekers 설치 필요) | yusufkaraaslan |
+
+**superpowers 나머지 스킬** — obra/superpowers
+
+| 스킬 | 설명 |
+|---|---|
+| [using-superpowers](skills/development/using-superpowers) | superpowers 스킬 사용 진입점 (어떤 스킬을 언제 쓸지 안내) |
+| [subagent-driven-development](skills/development/subagent-driven-development) | 작업을 하위 에이전트에 나눠 맡기고 검토 |
+| [dispatching-parallel-agents](skills/development/dispatching-parallel-agents) | 독립 작업을 여러 에이전트로 병렬 처리 |
+| [using-git-worktrees](skills/development/using-git-worktrees) | Git worktree로 작업 공간 분리 |
+| [finishing-a-development-branch](skills/development/finishing-a-development-branch) | 브랜치 마무리 (병합·PR·정리) 절차 |
+| [diagnosing-superpowers](skills/development/diagnosing-superpowers) | superpowers 스킬이 제대로 동작하는지 점검 |
+
+**antfu 스킬 세트** — Anthony Fu (Vue/Vite 코어팀) · [skills/development/antfu](skills/development/antfu)
+
+vue, vite, nuxt, pinia, vitest, vitepress, unocss, pnpm, nitro 사용법과 antfu, antfu-create-pr, antfu-issue-triage, antfu-query, antfu-simplify 등 14개. Vue 기반 사내 웹(django-vue-postgres-app)과 같이 쓰기 좋습니다.
 
 **링크만**
 
@@ -179,12 +202,61 @@ licenses/            📜 원저작자 라이선스
 | [web-artifacts-builder](skills/design/web-artifacts-builder) | React·Tailwind·shadcn/ui로 복잡한 웹 아티팩트 제작 | Anthropic |
 | [algorithmic-art](skills/design/algorithmic-art) | p5.js로 제너러티브 아트 만들기 | Anthropic |
 | [slack-gif-creator](skills/design/slack-gif-creator) | 슬랙용 움직이는 GIF 만들기 | Anthropic |
+| [canvas-design](skills/design/canvas-design) | 포스터·정적 비주얼을 PNG/PDF로 제작 (폰트 포함) | Anthropic |
+| [color-expert](skills/design/color-expert) | 색채 과학 전문 지식: OKLCH 색공간, 팔레트 생성, 명도 대비·접근성 | meodai |
+| [nothing-design](skills/design/nothing-design) | Nothing 폰 스타일 UI (모노크롬, 타이포 중심, 산업적 미감) | dominikmartn ⭐2.5k |
+| [hand-drawn-diagrams](skills/design/hand-drawn-diagrams) | Excalidraw 손그림 스타일 다이어그램 (애니메이션 SVG + PNG) | muthuishere |
+| [claudedesignskills](skills/design/claudedesignskills) | 3D·모션 웹 라이브러리 22종 가이드 (Three.js, GSAP, React Three Fiber, Framer Motion, Lottie, Rive 등) | freshtechbro |
 
 **링크만**
 
 | 저장소 | 내용 | 비고 |
 |---|---|---|
 | [impeccable](https://github.com/pbakaus/impeccable) | 디자인 용어·명령으로 UI 품질 높이기 | ⭐101k · 용량이 커서(97MB) 링크만 |
+
+## 🔬 리서치 (`skills/research`)
+
+| 스킬 | 설명 | 출처 |
+|---|---|---|
+| [balanced](skills/research/balanced) | 근거 기반 균형 잡힌 토론·검토 (한쪽 주장에 치우치지 않게) | glebis |
+| [daydream](skills/research/daydream) | 아이디어 사이의 숨은 연결을 찾는 발상 도구 | glebis |
+
+## 🎬 미디어 (`skills/media`)
+
+| 스킬 | 설명 | 출처 |
+|---|---|---|
+| [gpt-image-2](skills/media/gpt-image-2) | OpenAI 이미지 생성·편집 (OpenAI 또는 OpenRouter API 키 필요) | glebis |
+
+## 📋 PM·기획 (`skills/pm`)
+
+| 스킬 | 설명 | 출처 |
+|---|---|---|
+| [pm-skills](skills/pm/pm-skills) | 제품 기획 스킬 묶음: 실행(PRD·로드맵), 제품 발견, 전략, 시장 조사, 데이터 분석, AI 출시, 툴킷 (마케팅·GTM 묶음은 제외) | phuryn ⭐ |
+| [skill-studio](skills/pm/skill-studio) | 인터뷰를 통해 나만의 스킬을 설계·생성 (Gemini/OpenRouter API 키 사용) | glebis |
+
+## 🛡️ 2026-11-03 추가분 보안 검토 결과
+
+노션 "Claude Skills 추천 50선"의 S·A티어 중 마케팅·SNS를 뺀 스킬을 skill-inspector 기준으로 수동 검토했습니다 (SkillSpector 자동 스캔은 미실행).
+
+| 판정 | 스킬 | 이유 |
+|---|---|---|
+| APPROVE | antfu, superpowers, repomix-explorer, dev-browser, vexor-cli, skill-seekers, canvas-design, color-expert, nothing-design, claudedesignskills, balanced, daydream, pm-skills | 숨은 외부 전송·자동 실행·프롬프트 인젝션 없음, 설명과 동작 일치 |
+| CAUTION | gpt-image-2, skill-studio, web-scraper, hand-drawn-diagrams | 외부 API(OpenAI·Gemini·Apify) 키 사용 또는 외부 CDN(esm.sh) 접속. 문서화돼 있고 사용자가 실행할 때만 동작 |
+| 제외 | Generative-Media-Skills | 유료 muapi.ai API 필요 + 스킬이 이용약관 동의(`acceptLicenseTerms: true`)를 자동 처리 + 저장소 공통 코드 없이는 동작 안 함 |
+| 제외 | claude-code-video-toolkit | 원본 프로젝트(tools/, lib/) 안에서만 동작하는 구조 |
+
+**링크만 (라이선스 미표기 또는 비상업 라이선스)**
+
+| 저장소 | 내용 | 이유 |
+|---|---|---|
+| [Design Auditor](https://github.com/Ashutos1997/claude-design-auditor-skill) | 17개 규칙 디자인 감사, 100점 채점, 한국어 지원 | 라이선스 미표기 |
+| [Beautiful Prose](https://github.com/SHADOWPR0/beautiful_prose) | 군더더기 없는 강한 문체 | 라이선스 미표기 |
+| [Deep Research Engine](https://github.com/199-biotechnologies/claude-deep-research-skill) | 다단계 심층 리서치 | 라이선스 미표기 |
+| [Academic Research Skills](https://github.com/Imbad0202/academic-research-skills) | 학술 연구 스킬 | CC BY-NC (비상업 전용) |
+| [Remotion Skills](https://github.com/remotion-dev/skills) | React로 영상 만들기 | 라이선스 미표기, Remotion 자체 상용 라이선스 |
+| [Video Toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) | 영상 제작 툴킷 | 저장소 통째로 클론해서 사용 |
+| [Generative Media Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) | 이미지·영상 생성 (muapi.ai) | 위 보안 검토 참고 |
+| [Repomix](https://github.com/yamadashy/repomix) | 저장소 → AI용 단일 파일 변환 CLI 본체 | 별도 설치 도구 |
 
 ---
 
@@ -236,3 +308,15 @@ licenses/            📜 원저작자 라이선스
 | [NVIDIA/skillspector](https://github.com/NVIDIA/skillspector) | Apache 2.0 |
 | [agenticdevops/agentic-ops-skills](https://github.com/agenticdevops/agentic-ops-skills) | MIT |
 | [lackeyjb/playwright-skill](https://github.com/lackeyjb/playwright-skill) | MIT |
+| [antfu/skills](https://github.com/antfu/skills) | MIT |
+| [yamadashy/repomix](https://github.com/yamadashy/repomix) | MIT |
+| [SawyerHood/dev-browser](https://github.com/SawyerHood/dev-browser) | MIT |
+| [yfe404/web-scraper](https://github.com/yfe404/web-scraper) | MIT |
+| [scarletkc/vexor](https://github.com/scarletkc/vexor) | MIT |
+| [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | MIT |
+| [meodai/skill.color-expert](https://github.com/meodai/skill.color-expert) | CC BY 4.0 |
+| [dominikmartn/nothing-design-skill](https://github.com/dominikmartn/nothing-design-skill) | MIT |
+| [freshtechbro/claudedesignskills](https://github.com/freshtechbro/claudedesignskills) | MIT |
+| [muthuishere/hand-drawn-diagrams](https://github.com/muthuishere/hand-drawn-diagrams) | MIT |
+| [glebis/claude-skills](https://github.com/glebis/claude-skills) | MIT |
+| [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | MIT |
