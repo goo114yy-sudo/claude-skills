@@ -186,7 +186,11 @@ licenses/            📜 원저작자 라이선스
 
 | 스킬 | 설명 |
 |---|---|
-| _(아직 없음)_ | |
+| [django-vue-postgres-app](my-skills/django-vue-postgres-app) | Django·Vue.js·PostgreSQL 사내 웹 서비스 구축 표준 (DB·API 설계, 넥센 보라색 UI 토큰, WORKLOG·유지보수 문서화 규칙) |
+| [spec-driven-development](my-skills/spec-driven-development) | GitHub Spec Kit 방식: 원칙 → 명세(무엇·왜) → 계획(어떻게) → 작업 분해 → 구현 → 명세와 대조 |
+| [web-design-judgment](my-skills/web-design-judgment) | 웹 UI가 "AI가 만든 티" 안 나게 하는 금지 규칙 + Emil Kowalski식 애니메이션 원칙 + 출시 전 체크리스트 |
+
+> 참고: `skills/development/spec-driven-development`(addyosmani)와 이름이 같지만 내용이 다른 별개 스킬입니다. 내 스킬 쪽이 GitHub Spec Kit 8단계 방식입니다.
 
 ## 더 찾아볼 곳
 
