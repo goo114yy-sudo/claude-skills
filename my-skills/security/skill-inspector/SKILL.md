@@ -5,6 +5,30 @@ description: Review AI agent skills before installation using NVIDIA SkillSpecto
 
 # Skill Inspector
 
+> Source: NVIDIA/skillspector (Apache 2.0), skills/skill-inspector/SKILL.md
+
+## Prerequisite: SkillSpector CLI (정밀 스캔에 필요)
+
+정밀 스캔(71개 패턴 자동 정적 분석)은 `skillspector` CLI가 설치된 환경에서만 동작한다. 이 스킬만 등록해서는 정밀 스캔이 되지 않는다.
+
+설치 (Python 3.12+ 와 uv 필요, 한 번만):
+
+```bash
+uv tool install git+https://github.com/NVIDIA/skillspector.git
+# 업데이트: uv tool update skillspector
+# 설치 확인: skillspector --help
+```
+
+- uv가 없으면 먼저 설치: `curl -LsSf https://astral.sh/uv/install.sh | sh` (Windows는 `winget install astral-sh.uv`)
+- Docker만 있는 환경은 저장소의 Dockerfile로 이미지를 빌드해 사용할 수 있다 (github.com/NVIDIA/skillspector README 참고).
+- Claude.ai 일반 채팅처럼 설치가 안 되는 환경에서는 아래 Manual Fallback(수동 검토)만 가능하다. Claude Code, 리눅스 VM, WSL 등 사용자 PC 환경에 설치해 두면 매번 정밀 스캔이 실행된다.
+
+검사 시작 전 `command -v skillspector`로 설치 여부를 확인한다. 설치되어 있지 않으면:
+
+1. 사용자에게 사용자의 언어로 "정밀 스캔을 하려면 위 설치 명령이 필요하다"고 알리고 설치 명령을 그대로 보여준다.
+2. 사용자의 명시적인 허락 없이 직접 설치하지 않는다.
+3. 사용자가 설치를 원하지 않거나 설치할 수 없는 환경이면 Manual Fallback으로 진행하고, 보고서에 "SkillSpector 스캔 없이 판정(신뢰도 낮음)"이라고 밝힌다.
+
 ## Goal
 
 Decide whether an AI agent skill is safe to install, keep installed, or submit for review.
