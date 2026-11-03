@@ -266,7 +266,7 @@ vue, vite, nuxt, pinia, vitest, vitepress, unocss, pnpm, nitro 사용법과 antf
 
 | 분류 | 스킬 | 설명 |
 |---|---|---|
-| 💻 개발 | [django-vue-postgres-app](my-skills/django-vue-postgres-app) | Django·Vue.js·PostgreSQL 사내 웹 서비스 구축 표준 (DB·API 설계, 넥센 보라색 UI 토큰, WORKLOG·유지보수 문서화 규칙) |
+| 💻 개발 | [django-vue-postgres-app](my-skills/django-vue-postgres-app) | Django·Vue.js·PostgreSQL 사내 웹 서비스 구축 표준 (DB·API 설계, 브랜드 보라색 UI 토큰, WORKLOG·유지보수 문서화 규칙) |
 | 💻 개발 | [spec-driven-development](my-skills/spec-driven-development) | GitHub Spec Kit 방식: 원칙 → 명세(무엇·왜) → 계획(어떻게) → 작업 분해 → 구현 → 명세와 대조 |
 | 🎨 디자인 | [web-design-judgment](my-skills/web-design-judgment) | 웹 UI가 "AI가 만든 티" 안 나게 하는 금지 규칙 + Emil Kowalski식 애니메이션 원칙 + 출시 전 체크리스트 |
 | 🛡️ 보안 | [skill-inspector](my-skills/security/skill-inspector) | 남의 스킬을 설치하기 전 악성 코드·프롬프트 인젝션·정보 유출·과도한 권한 검사 후 APPROVE / CAUTION / REJECT 판정 (NVIDIA SkillSpector 원본 + 설치 안내 추가) |
