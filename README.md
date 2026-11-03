@@ -151,6 +151,14 @@ licenses/            📜 원저작자 라이선스
 | [sharp-edges](skills/infra-security/sharp-edges) | 실수하기 쉬운 API·위험한 기본 설정 찾기 |
 | [supply-chain-risk-auditor](skills/infra-security/supply-chain-risk-auditor) | 의존성 패키지 공급망 위험 감사 |
 
+**스킬 보안 검사** — NVIDIA 제작 ⭐ (SkillSpector)
+
+| 스킬 | 설명 |
+|---|---|
+| [skill-inspector](skills/infra-security/skill-inspector) | 남이 만든 스킬을 설치하기 전에 악성 코드·프롬프트 인젝션·정보 유출·과도한 권한 등을 검사하고 APPROVE / CAUTION / REJECT 판정 |
+
+> 💡 정밀 검사를 하려면 NVIDIA의 [SkillSpector](https://github.com/NVIDIA/skillspector) CLI(`skillspector`)를 설치해야 합니다. 설치돼 있지 않으면 Claude가 소스를 직접 읽는 수동 검토로 대신하고, 그 사실을 보고서에 밝힙니다.
+
 **링크만 (참고용)**
 
 | 저장소 | 내용 |
@@ -217,5 +225,6 @@ licenses/            📜 원저작자 라이선스
 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | MIT |
 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | MIT |
 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | Apache 2.0 |
+| [NVIDIA/skillspector](https://github.com/NVIDIA/skillspector) | Apache 2.0 |
 | [agenticdevops/agentic-ops-skills](https://github.com/agenticdevops/agentic-ops-skills) | MIT |
 | [lackeyjb/playwright-skill](https://github.com/lackeyjb/playwright-skill) | MIT |
